@@ -59,7 +59,21 @@ Example `config.yaml`:
 ```yaml
 n_tosses: 100
 n_simulations: 1000
+probability_head : 0.5
 ```
+
+![result](images/image.png)
+
+If the probability of a coin landing on heads is biased at 0.51, then the expected ratio of heads to tails would be 0.51:0.49.  
+You can see the result as this attached image.
+
+```yaml
+n_tosses: 100
+n_simulations: 1000
+probability_head : 0.5
+```
+
+![result](images/image2.png)
 
 ### 3. Run the Simulation
 

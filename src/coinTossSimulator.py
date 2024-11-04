@@ -1,12 +1,14 @@
 import numpy as np
 
 class CoinTossSimulator:
-    def __init__(self, n_tosses, n_simulations):
+    def __init__(self, n_tosses, n_simulations, probability_head=0.5):
         self.n_tosses = n_tosses
         self.n_simulations = n_simulations
+        self.probability = probability_head
 
     def simulate(self):
-        return np.random.binomial(self.n_tosses, 0.5, self.n_simulations)
+        return np.random.binomial(self.n_tosses, self.probability, self.n_simulations)
+
     
 # for test method.
 def main():

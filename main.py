@@ -29,9 +29,10 @@ def main():
 
     n_tosses = config['n_tosses']
     n_simulations = config['n_simulations']
+    probability_head = config['probability_head']
 
     # Run the simulation
-    simulator = CoinTossSimulator(n_tosses, n_simulations)
+    simulator = CoinTossSimulator(n_tosses, n_simulations, probability_head)
     results = simulator.simulate()
 
     # Create the directory to save the results
