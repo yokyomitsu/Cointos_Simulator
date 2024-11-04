@@ -46,8 +46,8 @@ pip install pandas matplotlib pyyaml
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/yokyomitsu/Cointos_Simulator.git
+cd Cointos_Simulator
 ```
 
 ### 2. Configure Simulation Parameters
