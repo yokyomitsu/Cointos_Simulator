@@ -1,0 +1,4 @@
+# Core libraries
+pandas   # or latest compatible version
+matplotlib   # or latest compatible version
+pyyaml  # for YAML file handling

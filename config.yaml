@@ -1,0 +1,11 @@
+# Settings
+
+# Example case :10 tosses each 100 simulations.
+# "n_simulations" 100
+#  |___"n_tosses" 10
+
+# Number of doing Contos. Set 1000 here if you throw a coin each simulation step.
+n_tosses: 1000
+
+# Number of simulation. Set 10000 here if you iterate the simulation 10000 times
+n_simulations: 10000
