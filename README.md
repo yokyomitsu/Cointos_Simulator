@@ -97,12 +97,13 @@ Simulation parameters are set in the `config.yaml` file located at the root of t
 
 - `n_tosses` (integer): Number of coin tosses per simulation.
 - `n_simulations` (integer): Total number of simulations to run.
-
+- `probability_head` (double): heads bias.
 Example:
 
 ```yaml
 n_tosses: 100
 n_simulations: 1000
+probability_head : 0.5
 ```
 
 *Note: Ensure the `config.yaml` file is properly formatted in YAML syntax.*
